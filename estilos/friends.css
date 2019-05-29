@@ -1,0 +1,56 @@
+/*barra de navegación*/
+.navbar{
+    background-color:#FF7D49!important;
+}
+
+a:link{
+    color:#390099;
+}
+
+.row.nav{
+    width: 100%;
+}
+.btn{
+    color:#495057;
+    border-color: #FFBd00;
+    background-color: white;
+}
+.btn:hover{
+    background-color: #FFBd00;
+    color:white;
+    border-color:#FFBd00;
+}
+.btn:active{
+    background-color: #FFBd00!important;
+}
+.dropdown-menu{
+    right:0;
+    left: unset;
+}
+/*barra de navegación*/
+
+/*contenido*/
+
+.far{ 
+    font-size: 20px;
+    border-color:#390099!important;
+    cursor: pointer
+    
+}
+.estado{
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    font-size: 13px;
+    background-color:white;
+    color: black;
+    text-align: center;
+ }
