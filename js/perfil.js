@@ -1,12 +1,12 @@
 $(document).ready(function () {
     $("#inboxdestino").hide();
-
+ 
     $("#inbox").click(function () {
         $("#inboxdestino").html(
             '<h3>Mensajes</h3>' +
-            '<div class="enviarmensaje">'+
-            '<i class="far fa-envelope" id="enviarmensaje"></i>'+
-            '</div>'+
+            '<div class="enviarmensaje">' +
+            '<h4>Redactar mensaje <i class="far fa-envelope" id="enviarmensajedestino"></i> </h4>' +
+            '</div>' +
             '<br>' +
             '<div class="mensaje container-fluid">' +
             '<div class="row">' +
@@ -45,30 +45,37 @@ $(document).ready(function () {
             '</div>' +
             '</div>'
         ).toggle();
+ 
+        $("#enviarmensajedestino").click(function () {
+            $("#crearmensaje").html(
+                '<h3> <i class="fas fa-times" id="cerrar"></i> Enviar mensaje</h3>' +
+                '<form>' +
+                '<form action="mensaje" method="GET">' +
+                '<input type="text" placeholder="Para:">' +
+                '<br>' +
+                '<br>' +
+                '<input type="text" placeholder="Asunto:">' +
+                '<br>' +
+                '<br>' +
+                '<textarea placeholder="Escribir mensaje" textarea rows="5" cols="90" style="resize: none"></textarea>' +
+                '<br>' +
+                '<br>' +
+                '<button class="button" style="vertical-align:middle"><span>Enviar</span></button>' +
+                '</form>'
+            ).toggle();
+ 
+            $("#cerrar").click(function () {
+                $("#crearmensaje").toggle();
+ 
+            });
+        });
     });
-
+ 
     $("#inbox").click(function () {
-        $("#actividad").toggle()
+        $("#actividad").toggle();
     });
-});
-
-$(document).ready(function () {
-        $("#enviarmensajedestino").hide();
-
-    $("#enviarmensaje").click(function () {
-        $("#enviarmensajedestino").html(
-            '<h3>Enviar mensaje</h3>'+
-            '<form>'+
-              '<from action="" method="GET"></from>'+
-              '<input type="text" placeholder="Para:"><br><br>'+
-              '<input type="text" placeholder="Asunto:"><br><br>'+
-              '<textarea placeholder="Escribir mensaje" textarea rows="5" cols="90" style="resize: none"></textarea><br><br>'+
-              '<button class="button" style="vertical-align:middle"><span>Enviar</span></button>'+
-            '</form>'
-        ).toggle();
+ 
+    $("#enviarmensajedestino").click(function () {
+        $("#inbox").toggle();
     });
-
-    $("#enviarmensaje").click(function () {
-        $("#inbox").toggle()
-    });
-});
+ });
