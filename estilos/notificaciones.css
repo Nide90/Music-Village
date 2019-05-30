@@ -1,9 +1,12 @@
 body{
     /*font-family: Arial, Helvetica, sans-serif;*/
-    background-color: white;}
+    background-color: #F0F0C9;
+  }
 
-.lateral{
-    /*background-color: #8FB8DE;}*/}
+
+a:link{
+    color:#390099;
+  }
 
 .titulo{
     margin-top: 10px;
@@ -24,23 +27,36 @@ body{
 
  /*nav bar*/
  
-.btn{
-    color:#FF7D49;
-    border-color: #FF7D49;
+/*barra de navegación*/
+.navbar{
+  background-color:#FF7D49!important;
 }
-.btn:hover{
-    background-color: #FF7D49;
-    color:white;
-    border-color:#FF7D49;
+
+a:link{
+  color:#390099;
 }
 
 .row.nav{
-    width: 100%
+  width: 100%
+}
+.btn{
+  color:#495057;
+  border-color: #FFBd00;
+  background-color: white;
+}
+.btn:hover{
+  background-color: #FFBd00;
+  color:white;
+  border-color:#FFBd00;
+}
+.btn:active{
+  background-color: #FFBd00!important;
 }
 .dropdown-menu{
-    right:0;
-    left: unset;
-} 
+  right:0;
+  left: unset;
+}
+/*barra de navegación*/
 /* The switch - the box around the slider */
 .switch {
     position: relative;
