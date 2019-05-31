@@ -104,10 +104,9 @@
             <div class="fotodeperfil col-2">
                 <h3>Foto de perfil</h3>
                 <img src="../imagenes/subirfoto.png" alt="" style="width:128px;height:128px;"><br><br>
-                <ul>
-                    <li>Subir imagen</li>
-                    <li>Avatar prediseñado</li>
-                </ul>
+
+                <button class="button"><span>Subir imagen</span></button><br>
+
             </div>
 
             <div class="col-7">
@@ -122,10 +121,14 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-9">
-                            <h3>algo</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusamus corrupti
-                                quas in ab deserunt optio vel alias voluptatum impedit error, excepturi dolorum totam
-                                esse quasi dicta incidunt repellat architecto.</p>
+                            <form>
+                                <h3>Cambiar contraseña</h3>
+                                <h5>Contraseña actual</h5>
+                                <input type="password" id="password" placeholder="Contraseña"><br><br>
+                                <h5>Nueva contraseña:</h5>
+                                <input type="password" id="password" placeholder="Contraseña"><br><br>
+                                <button class="button"><span>Cambiar contraseña</span></button><br>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -136,38 +139,48 @@
                 <form>
                     <p>Fecha de nacimiento:</p>
                     <input type="date"> <br><br>
-                    <p>Algo:</p>
-                    <p>Algo:</p>
+
                 </form>
                 <h3>Gustos</h3>
-                <ul>
-                    <li>Indie</li>
-                    <li>Pop</li>
-                    <li>EDM</li>
-                </ul>
-                <h3>Comunidades</h3>
-                <ul>
-                    <li><a href="comunidades.html">Amantes del Pop</a></li>
-                    <li><a href="comunidades.html">Fans del rock en español</a></li>
-                </ul>
-                <a href="creacomunidades.html">Crear comunidad</a><br><br>
 
-                <h3>Amigos</h3>
-                <ul>
-                    <li> <img src="../imagenes/001.png" width="40" height="40" alt="logo"> <a
-                            href="username2.html">Username2</a>
-                    </li>
-                    <li> <img src="../imagenes/Pikachu.png" width="40" height="40" alt="logo"> <a
-                            href="username2.html">Username3</a>
-                    </li>
-                    <li> <img src="../imagenes/001.png" width="40" height="40" alt="logo"> <a
-                            href="username2.html">Username4</a></li>
-                </ul>
-                <a href="friends.html">Ver lista de amigos</a>
+                <form>
+                    <label for="">Selecciona los géneros que te gustan</label><br>
+                    <input type="checkbox" name="Genero" value="1">Rock<br>
+                    <input type="checkbox" name="Genero" value="2" checked>Pop<br>
+                    <input type="checkbox" name="Genero" value="3">Electrónica<br>
+                    <input type="checkbox" name="Genero" value="3">Genero<br>
+                    <input type="checkbox" name="Genero" value="3">Genero<br>
+                    <input type="checkbox" name="Genero" value="3">Genero<br>
+                    <input type="checkbox" name="Genero" value="3">Genero<br>
+                    <input type="checkbox" name="Genero" value="3">Genero<br>
+                    <input type="checkbox" name="Genero" value="3">Genero<br>
+                </form>
+                <br>
+                <h3>Editar comunidades</h3>
+                <form>
+                    <input type="checkbox" name="Genero" value="1"><a href="comunidades.html">Comunidad1</a><br>
+                    <input type="checkbox" name="Genero" value="2"><a href="comunidades.html">Comunidad2</a><br>
+                    <input type="checkbox" name="Genero" value="3"><a href="comunidades.html">Comunidad3</a><br>
+                </form>
+                <button class="button"><span>Crear comunidad</span></button>
+                <br>
+
+                <h3>Editar amigos</h3>
+                <input type="checkbox" name="Genero" value="1"><img src="../imagenes/001.png" width="40" height="40"
+                    alt="logo"><a href="username2.html">Username2</a><br>
+
+                <input type="checkbox" name="Genero" value="1"><img src="../imagenes/Pikachu.png" width="40" height="40"
+                    alt="logo"><a href="username2.html">Username3</a><br>
+
+                <input type="checkbox" name="Genero" value="1"><img src="../imagenes/001.png" width="40" height="40"
+                    alt="logo"><a href="username2.html">Username4</a><br>
+                <button class="button"><span>Eliminar amigos</span></button><br>
+                <button class="button"><span><a href="friends.html">Ver lista de amigos</a></span></button>
+                <br><br><br>
             </div>
         </div>
     </div>
-    <!--acá tiene que ir otra cosa-->
+
 
 
     <!--footer-->
