@@ -1,11 +1,12 @@
 $(document).ready(function () {
     $("#inboxdestino").hide();
+    $("#crearmensaje").hide();
  
     $("#inbox").click(function () {
         $("#inboxdestino").html(
             '<h3>Mensajes</h3>' +
             '<div class="enviarmensaje">' +
-            '<h4>Redactar mensaje <i class="far fa-envelope" id="enviarmensajedestino"></i> </h4>' +
+            '<button class="button" style="vertical-align:middle" id="enviarmensajedestino"><span>Componer mensaje</span></button>' +
             '</div>' +
             '<br>' +
             '<div class="mensaje container-fluid">' +
@@ -44,38 +45,30 @@ $(document).ready(function () {
             '</div>' +
             '</div>' +
             '</div>'
-        ).toggle();
- 
-        $("#enviarmensajedestino").click(function () {
-            $("#crearmensaje").html(
-                '<h3> <i class="fas fa-times" id="cerrar"></i> Enviar mensaje</h3>' +
-                '<form>' +
-                '<form action="mensaje" method="GET">' +
-                '<input type="text" placeholder="Para:">' +
-                '<br>' +
-                '<br>' +
-                '<input type="text" placeholder="Asunto:">' +
-                '<br>' +
-                '<br>' +
-                '<textarea placeholder="Escribir mensaje" textarea rows="5" cols="90" style="resize: none"></textarea>' +
-                '<br>' +
-                '<br>' +
-                '<button class="button" style="vertical-align:middle"><span>Enviar</span></button>' +
-                '</form>'
-            ).toggle();
- 
-            $("#cerrar").click(function () {
-                $("#crearmensaje").toggle();
- 
-            });
+        );
+
+        if($("#actividad").is(":visible")){
+            $("#actividad").hide();
+            $("#inboxdestino").show();
+        } else {
+            $("#actividad").show();
+            $("#inboxdestino").hide();
+        }
+        if($("#crearmensaje").is(":visible")){
+            $("#crearmensaje").hide();
+        }
+    });
+
+    $(document).on("click","#enviarmensajedestino",function () {
+        if($("#inboxdestino").is(":visible")){
+            $("#inboxdestino").hide();
+            $("#crearmensaje").show();
+        }
+    });
+
+        $("#cerrar").click(function () {
+            $("#crearmensaje").hide();
+
+        $("#inboxdestino").show()
         });
-    });
- 
-    $("#inbox").click(function () {
-        $("#actividad").toggle();
-    });
- 
-    $("#enviarmensajedestino").click(function () {
-        $("#inbox").toggle();
-    });
- });
+});
