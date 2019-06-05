@@ -1,0 +1,104 @@
+/*barra de navegación*/
+.navbar{
+    background-color:#FF7D49!important;
+}
+
+a:link{
+    color:#390099;
+}
+a:hover{
+    color:#FFBd00;
+}
+
+.row.nav{
+    width: 100%;
+}
+.btn{
+    color:#495057;
+    border-color: #FFBd00;
+    background-color: white;
+}
+.btn:hover{
+    background-color: #FFBd00;
+    color:white;
+    border-color:#FFBd00;
+}
+.btn:active{
+    background-color: #FFBd00!important;
+}
+.dropdown-menu{
+    right:0;
+    left: unset;
+}
+/*barra de navegación*/
+
+/*contenido*/
+
+.far{ 
+    font-size: 20px;
+    border-color:#390099!important;
+    cursor: pointer
+    
+}
+.estado{
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+/*boton*/
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FF7D49;
+    border: none;
+    color: rgb(41, 37, 37);
+    text-align: center;
+    font-size: 17px;
+    padding: 3px;
+    width: 90px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.button:hover span {
+    padding-right: 25px;
+  }
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.button:hover{
+    background-color: #FFBd00;
+    color:white;
+    border-color:#FFBd00;}
+
+/*footer*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    font-size: 13px;
+    background-color:white;
+    color: black;
+    text-align: center;}
