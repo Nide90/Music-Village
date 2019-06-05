@@ -1,0 +1,156 @@
+.btn{
+    color:#FF7D49;
+    border-color: #FF7D49;
+}
+.btn:hover{
+    background-color: #FF7D49;
+    color:white;
+    border-color:#FF7D49;
+}
+
+/* BOTON POST*/
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FF7D49;
+    border: none;
+    color: rgb(41, 37, 37);
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    width: 240px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.button:hover{
+    background-color: #FFBd00;
+    border-color:#FFBd00;
+}
+
+#post-button{
+    width: 120px;
+}
+
+/* NAVBAR*/
+
+.navbar{
+    background-color:#FF7D49!important;
+}
+.row.nav{
+    width: 100%
+}
+.buscador{
+    margin-bottom: auto;
+    line-height: auto;
+}
+.dropdown-menu{
+    right:0;
+    left: unset;
+} 
+body{
+    background-color: #F0F0C9;
+
+}
+/* POST*/
+
+.card-header{
+    background-color: #A9E5BB;
+    line-height: 10px;
+    font-size: 10px;
+}
+.bg-primary{
+    background-color: white !important;
+}
+.C-post {
+    height: 15vh;
+    overflow: auto;
+}
+.card-title{
+    font-size: 4vh; 
+}
+.card-text{
+    font-size: 2vh; 
+}
+input {
+    width: 100%;
+    margin-bottom: 2vh;
+    line-height: 1vh;
+}
+textarea {
+    width: 100%;
+    height: 20vh;
+}
+.fas{
+    margin: 1vh;
+    text-align: center;
+   
+}
+.navegador{
+    margin: auto;
+    text-align: auto;
+  
+}
+#actividad{
+    width: auto;
+    margin: 0;
+}
+.acciones{
+    border-right: 1px solid black;
+    text-align: center;
+    width: auto!important;
+    padding: 0!important;  
+}
+
+.reglas{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    height: auto;
+}
+
+.logo{
+    width: 15vh;
+}
+
+#cerrar{
+    text-align: right;
+    margin-right: 3vh !important;
+    margin-top: 3vh !important;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    font-size: 13px;
+    background-color:white;
+    color: black;
+    text-align: center;
+ }
