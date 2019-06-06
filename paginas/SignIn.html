@@ -18,7 +18,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="flotante col-lg-4 col-md-4 col-sm-4 col-8  offset-2">
-                <div class=imagen>
+                <div class="imagen">
                     <img src="../imagenes/logo.png" alt="red social" style="width:50px;height:55px;">
                 </div>
                 <h3 class="titulo">Registrarse</h3><br>
@@ -29,18 +29,19 @@
 
                             <!--formularios-->
                             <form class=formularios>
-                                <input type="text" placeholder="Username" name="username" class="form-control"><br>
-                                <input type="email" placeholder="Email" class="form-control"><br>
-                                <input type="password" id="password" placeholder="Contraseña" class="form-control"><br>
+                                <input type="text" placeholder="Username" name="username" class="form-control"required><br>
+                                <input type="email" placeholder="Email" class="form-control" required><br>
+                                <input type="password" id="password" placeholder="Contraseña" class="form-control"required><br>
 
                                 <!--terminos y condiciones-->
                                 <div class="condiciones">
                                     <div class="container-fluid">
                                         <div class="row">
                                             <div class="col-10">
-                                                <input type="checkbox" class="checkbox">Aceptar términos y condiciones
+                                                <input type="checkbox" class="checkbox" required>Aceptar términos y condiciones
                                                 <br>
                                                 <div id="link1">
+                                                    <hr>
                                                     <h4 class="lala">Información relevante</h4>
                                                     <p class="terminos">Es requisito necesario para la adquisición de
                                                         los productos que
@@ -83,7 +84,8 @@
                                     </div>
                                 </div>
 
-                                <button type="submit" class="button" id="boton-loguear"><span>Registrarse</span></button>
+                                <button type="submit" class="button"
+                                    id="boton-loguear"><span>Registrarse</span></button>
                             </form>
 
                             ¿Ya tenés cuenta? <a href="login.html">Inicia sesión</a>.
