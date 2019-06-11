@@ -82,8 +82,8 @@
 
 
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Administrar comunidades</a>
-                    <a class="dropdown-item" href="#">Configurar notificaciones</a>
+                    <a class="dropdown-item" href="crear-comunidades.php">Administrar comunidades</a>
+                    <a class="dropdown-item" href="notificaciones.php">Configurar notificaciones</a>
                     <a class="dropdown-item" href="#">Cerrar sesión</a>
                   </div>
 
@@ -104,7 +104,7 @@
     <div class="row">
       <div class="contenido col-2">
         <div class="editarperfil">
-          <a href="editarperfil.html"><i class="far fa-edit"></i></a>
+          <a href="editarperfil.php"><i class="far fa-edit"></i></a>
         </div>
         <img src="../img/155.png" alt="username1" style="width:128px;height:128px;">
       </div>

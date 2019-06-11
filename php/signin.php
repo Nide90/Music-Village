@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -11,7 +15,7 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="SignIn.css">
+    <link rel="stylesheet" href="../estilos/SignIn.css">
 </head>
 
 <body>
@@ -30,7 +34,7 @@
 
 
                             <!--formularios // PHP-->
-                                <form action="registro.php" method="post">
+                                <form action="../php/registro.php" method="post">
                                     <input type="text" placeholder="Username" name="username" class="form-control" required><br>
                                     <input type="email" placeholder="Email" class="form-control" name="email" required><br>
                                     <input type="password" id="password" placeholder="Contraseña" class="form-control" name="contraseña" required><br>
@@ -108,7 +112,7 @@
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
                     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
                     crossorigin="anonymous"></script>
-                <script src="/signin.js"></script>
+                <script src="../js/signin.js"></script>
 </body>
 
 </html>

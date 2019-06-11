@@ -26,7 +26,7 @@
 
                 <!--logo-->
                 <div class="col-3">
-                    <a href="home.html">
+                    <a href="home.php">
                         <img src="../img/logo.png" width="50" height="50" alt="logo"></a>
                 </div>
 
@@ -46,7 +46,7 @@
                            
                             <div class="perfil">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="perfil.html">
+                                    <a class="nav-link" href="perfil.php">
                                         <img src="../img/155.png" class="iconoperfil">
                                     </a>
                                 </li>
@@ -54,7 +54,7 @@
 
                             <div class="amigos">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="friends.html">
+                                    <a class="nav-link" href="friends.php">
                                         <i class="fas fa-user-friends"></i>
                                     </a>
                                 </li>
@@ -88,8 +88,8 @@
 
 
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">Administrar comunidades</a>
-                                        <a class="dropdown-item" href="#">Configurar notificaciones</a>
+                                        <a class="dropdown-item" href="crear-comunidades.php">Administrar comunidades</a>
+                                        <a class="dropdown-item" href="notificaciones.php">Configurar notificaciones</a>
                                         <a class="dropdown-item" href="#">Cerrar sesión</a>
                                     </div>
 
@@ -163,10 +163,10 @@
             <div class="lateral col-3">
                 <h3>Trending comunidades</h3>
                 <ol>
-                    <li><a href="comunidades.html">Amantes del Pop</a></li>
-                    <li><a href="comunidades.html">Fans del rock en español</a></li>
-                    <li><a href="comunidades.html">comu generica</a></li>
-                    <li><a href="comunidades.html">comu generica</a></li>
+                    <li><a href="comunidades.php">Amantes del Pop</a></li>
+                    <li><a href="comunidades.php">Fans del rock en español</a></li>
+                    <li><a href="comunidades.php">comu generica</a></li>
+                    <li><a href="comunidades.php">comu generica</a></li>
                 </ol>
                 <h3>Ranking usuarios</h3>
                 <ol>
@@ -181,7 +181,7 @@
                     <li> <img src="../img/155.png" width="40" height="40" alt="logo"> <a
                             href="username2.html">Username5</a></li>
                 </ol>
-                <a href="friends.html">Ver lista de amigos</a></li>
+                <a href="friends.php">Ver lista de amigos</a></li>
             </div>
         </div>
     </div>
