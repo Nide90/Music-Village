@@ -1,11 +1,19 @@
-.btn{
-    color:#FF7D49;
-    border-color: #FF7D49;
-}
 .btn:hover{
-    background-color: #FF7D49;
+    background-color: #FFBd00;
     color:white;
-    border-color:#FF7D49;
+    border-color:#FFBd00;
+}
+.btn:active{
+    background-color: #FFBd00!important;
+}
+.dropdown-menu{
+    right:0;
+    left: unset;
+}
+.btn{
+    color:#495057;
+    border-color: #FFBd00;
+    background-color: white;
 }
 
 /* BOTON POST*/
