@@ -23,7 +23,7 @@
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../estilos/friends.css">
-    <title>RED SOCIAL: lista de amigos</title>
+    <title>Music Village: lista de amigos</title>
 </head>
 
 <body>
