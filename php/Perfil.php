@@ -14,7 +14,7 @@
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../estilos/Perfil.css">
-  <title>RED SOCIAL: perfil</title>
+  <title>Music Village: perfil</title>
 </head>
 
 <body>
@@ -209,6 +209,10 @@
                 href="username2.html">Username4</a></li>
           </ul>
           <a href="friends.html">Ver lista de amigos</a></li>
+          <hr>
+          <div class="favoritos"><h3>Favoritos</h3> 
+           <p>!!!</p>
+          </div>
         </div>
       </div>
     </div>
