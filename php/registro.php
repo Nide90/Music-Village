@@ -6,8 +6,8 @@
     
     $host = "localhost";
     $dbusername = "root";
-    $dbpass = "";
-    $db = "musicvillage";
+    $dbpass = " ";
+    $db = "musicVillage";
 
     $conexion = mysqli_connect($host, $dbusername, $dbpass, $db);
 
